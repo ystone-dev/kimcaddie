@@ -1,0 +1,42 @@
+.mainContainer {
+  width: 352px;
+  height: 85px;
+  margin: 0 auto;
+}
+
+.banner {
+  display: inline-block;
+  width: 352px;
+  height: 85px;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.banner img {
+  width: inherit;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.carouselBtn {
+  display: inline-block;
+  border: none;
+  background-color: transparent;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.active {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.hide {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s;
+}

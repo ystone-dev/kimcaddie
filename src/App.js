@@ -1,9 +1,10 @@
-// import React from "react";
+import React from "react";
+import "./App.css";
 import Header from "./components/Header";
 import Section from "./components/Section";
 import Carousel from "./components/Carousel";
 
-function App() {
+const App = () => {
   return (
     <>
       <Header />
@@ -19,6 +20,6 @@ function App() {
       </footer>
     </>
   );
-}
+};
 
 export default App;
